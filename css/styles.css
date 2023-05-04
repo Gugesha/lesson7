@@ -1,0 +1,78 @@
+.ulitem{
+    display: flex;
+    justify-content: space-between;
+    width: 601px;
+    list-style: none;
+}
+.headerdiv{
+    margin: 53px auto 136px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1220px:
+    
+}
+.consulting{
+    width: 184px;
+    height: 65;
+    background-color: #6B77E5;
+    color: #fff;
+    padding: 21px 35px 22px;
+}
+.box1{
+    width: 283px;
+    height: 86px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 auto 41px auto;
+}
+.box2{
+    width: 1220px;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 60px auto
+}
+.calendar{
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background-color: #40DDB6;
+}
+.underbox1{
+    background-color: #F4F4F4;
+    width: 386px;
+    height: 383px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.boxinbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 185px;
+}
+/* .boxinbox:nth-child(2){
+    text-align: center;
+    width: 300px;
+    background-color: red;
+} */
+.text{
+    text-align: center;
+    width: 300px;
+
+}
+.div1{
+    position: relative;
+}
+.div2{
+
+    position: absolute;
+
+}
