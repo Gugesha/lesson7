@@ -3,14 +3,17 @@
     justify-content: space-between;
     width: 601px;
     list-style: none;
+    font-family: 'Inter', sans-serif;
+    color:  #37393F;
+    font-size: 18px;
+    font-weight: 400;
 }
 .headerdiv{
     margin: 53px auto 136px auto;
+    width: 1220px; ;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 1220px:
-    
+    align-items: center;    
 }
 .consulting{
     width: 184px;
@@ -18,6 +21,10 @@
     background-color: #6B77E5;
     color: #fff;
     padding: 21px 35px 22px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
 }
 .box1{
     width: 283px;
@@ -28,6 +35,18 @@
     align-items: center;
     margin:0 auto 41px auto;
 }
+/* .box1:nth-child(first-child){
+    font-family: 'Inter', sans-serif;
+    color: #37393F;
+    font-size: 18px;
+    font-weight: 500;
+}
+.box1:nth-child(last-child){
+    font-family: 'Poppins', sans-serif;
+    color: #37393F;
+    font-size: 40px;
+    font-weight: 700;
+} */
 .box2{
     width: 1220px;
     height: 350px;
@@ -107,11 +126,64 @@
 .fa-play{
     color: #fff;
 }
+.textdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 86px;
+    margin-bottom: 41px;
+}
 
 .persondiv{
     width: 1220px;
     height: 532px;
     display: flex;
     justify-content: space-between;
+    margin: 0 auto 131px auto;
 }
-
+.person1{
+    position: relative;
+}
+.exp1{
+    position: absolute;
+    left: 22px;
+    top: 396px;
+    width: 341px;
+    height: 114px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.person2{
+    position: relative;
+}
+.exp2{
+    position: absolute;
+    left: 22px;
+    top: 396px;
+    width: 341px;
+    height: 114px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.person3{
+    position: relative;
+}
+.exp3{
+    position: absolute;
+    left: 22px;
+    top: 396px;
+    width: 341px;
+    height: 114px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
